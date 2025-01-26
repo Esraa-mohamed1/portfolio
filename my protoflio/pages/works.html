@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Auto Image Slideshow</title>
+  <style>
+    * {
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      background-color: #121212;
+      font-family: Arial, sans-serif;
+      color: white;
+    }
+
+    .container {
+      width: 200vmin;
+      position: absolute;
+      transform: translate(-50%, -50%);
+      top: 50%;
+      left: 50%;
+      overflow: hidden;
+      border: 20px solid #8b0347;
+      border-radius: 8px;
+      box-shadow: 10px 15px 20px rgba(30, 30, 200, 0.3);
+      background-color: #000;
+    }
+
+    .text-content {
+      padding: 20px;
+      background-color: #ff66b3;
+      text-align: center;
+      color: #fff;
+      border-radius: 8px 8px 0 0;
+    }
+
+    .text-content h1 {
+      font-size: 24px;
+      margin-bottom: 10px;
+    }
+
+    .text-content p {
+      font-size: 16px;
+    }
+
+    .wrapper {
+      display: flex;
+      height: 300px;
+      width: 100px;
+      animation: slide 15s infinite;
+    }
+
+    img {
+      display: flex;
+      width: 400px;
+      object-fit: cover;
+      border-radius: 5px;
+    }
+
+    @keyframes slide {
+      0% {
+        transform: translateX(0);
+      }
+      
+      33% {
+        transform: translateX(0);
+      }
+      
+      38% {
+        transform: translateX(-100px);
+      }
+
+      66% {
+        transform: translateX(-100px);
+      }
+
+      71% {
+        transform: translateX(-200px);
+      }
+
+      100% {
+        transform: translateX(-200px);
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="text-content">
+      <h1>About My Projects</h1>
+      <p>
+        The <strong>Ma3ak</strong> project is an innovative solution for managing deliveries seamlessly.
+        It connects users with local services to place orders and track deliveries in real-time. 
+        This app aims to enhance the delivery experience by providing fast and reliable services.
+      </p>
+      <p>
+        The <strong>Eyjar</strong> website focuses on providing easy access to state-of-sales platforms.
+        It allows users to browse and purchase various products, ensuring a smooth e-commerce experience. 
+        The website is built with responsive design principles, enabling users to access it from any device.
+      </p>
+    </div>
+    <div class="wrapper">
+      <img src="/img/myimg.jpeg" />
+      <img src="/img/ma3ak.jpeg" />
+      <img src="/img/myimg.jpeg" />
+      <img src="/img/ma3ak.jpeg" />
+      <img src="/img/OIP.jpeg" />
+    </div>
+  </div>
+</body>
+</html>

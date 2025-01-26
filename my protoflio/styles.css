@@ -1,0 +1,236 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  header {
+    background: #333;
+    color: white;
+    padding: 10px 0;
+  }
+  header ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+  }
+  header ul li {
+    margin: 0 15px;
+  }
+  header ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  section {
+    padding: 20px;
+    text-align: center;
+  }
+  .hobbies-gallery img {
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+    transition: transform 0.3s;
+  }
+  .hobbies-gallery img:hover {
+    transform: scale(1.2);
+  }
+  .slider {
+    display: flex;
+    overflow-x: scroll;
+  }
+  .slider .slide {
+    margin: 10px;
+    text-align: center;
+  }
+  footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+  }
+  body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+  }
+
+  header {
+    background: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+  }
+
+  header h1 {
+    margin: 0;
+    font-size: 24px;
+  }
+
+  /* Navigation bar styles */
+  nav {
+    background: #444;
+  }
+
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
+
+  nav ul li {
+    margin: 0 15px;
+  }
+
+ /* General styles */
+body {
+margin: 0;
+font-family: "Arial", sans-serif;
+background-color: #000000; /* Light pink background */
+}
+
+/* Header styles */
+header {
+background: linear-gradient(180deg, #e40474, #000000); /* Pink gradient */
+color: white;
+padding: 10px 0;
+text-align: center;
+box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+margin: 0;
+font-size: 28px;
+font-family: "Cursive", sans-serif;
+text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.2);
+}
+
+/* Navigation bar styles */
+nav {
+background: #000000; /* Soft pink */
+border-bottom: 4px solid #33021a; /* Add a border for contrast */
+}
+
+nav ul {
+list-style: none;
+margin: 0;
+padding: 0;
+display: flex;
+justify-content: center;
+}
+
+nav ul li {
+margin: 0 10px;
+}
+
+nav ul li a {
+text-decoration: none;
+color: white;
+padding: 15px 15px;
+display: block;
+border-radius: 20px;
+font-family: "Cursive", sans-serif;
+font-size: 20px;
+transition: background 0.3s ease, transform 0.2s ease;
+}
+
+nav ul li a:hover {
+background: #ff66b2; /* Slightly darker pink */
+transform: scale(1.1); /* Slight zoom effect */
+}
+/* 
+nav ul li a::before {
+content: "🌼";
+margin-right: 6px;
+}  */
+
+/* Main content area */
+main {
+display: flex;
+justify-content: center;
+margin: 20px;
+}
+
+iframe {
+width: 80%;
+height: 600px;
+border: 2px solid #ff82c0; 
+border-radius: 12px;
+background: #ffffff;
+box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Footer styles */
+footer {
+background: linear-gradient(180deg, #dd1378, #000000); /* Pink gradient */
+color: white;
+text-align: center;
+padding: 10px 0;
+margin-top: 20px;
+box-shadow: 0px -4px 6px rgba(0, 0, 0, 0.1);
+}
+
+footer p {
+margin: 0;
+font-size: 14px;
+font-family: "Cursive", sans-serif;
+}
+
+/* Add subtle animation */
+footer p::after {
+content: "🌸";
+animation: float 2s infinite ease-in-out;
+}
+
+/* Floating flower animation */
+@keyframes float {
+0% {
+  transform: translateY(0);
+}
+50% {
+  transform: translateY(-5px);
+}
+100% {
+  transform: translateY(0);
+}
+}
+
+
+
+  h2 {
+    font-family: "Cursive", sans-serif;
+    font-size: 36px;
+    color: #ff66b2;
+  }
+
+  p {
+    font-size: 18px;
+    color: #555;
+  }
+
+  /* Social Media Section */
+  .social-media {
+    margin-top: 20px;
+  }
+
+  .social-media a {
+    text-decoration: none;
+    color: #ff66b2;
+    font-size: 32px;
+    margin: 0 15px;
+    transition: transform 0.3s ease, color 0.3s ease;
+  }
+
+  .social-media a:hover {
+    color: #ff3385; /* Darker pink on hover */
+    transform: scale(1.2); /* Slight zoom effect */
+  }
+
+  .social-media i {
+    vertical-align: middle;
+  }
